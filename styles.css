@@ -164,7 +164,14 @@ h3 {
   color: #FFF;
   letter-spacing: 2px;
   font-weight: bold;
+  transform: scale(1);
+  transition: transform, background 1550ms;
+}
 
+.submit-btn:focus,
+.submit-btn:hover {
+  transform: scale(1.1);
+  background: pink;
 }
 
 
